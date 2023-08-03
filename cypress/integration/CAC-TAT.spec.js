@@ -105,7 +105,7 @@ describe('Central de atendimento ao cliente TAT', function(){
         cy.get('#privacy a').should('have.attr','target','_blank').click()
     })
 
-    it.only('clica no link removendo target e abrir na mesma aba', function(){
+    it('clica no link removendo target e abrir na mesma aba', function(){
         cy.get('#privacy a').invoke('removeAttr','target').click()
         
         cy.contains('#title','CAC TAT - Política de privacidade').should('be.visible')

@@ -4,3 +4,4 @@ cypress/downloads/
 cypress/screenshots/
 cypress/videos/
 cypress/support/commandsgw.js
+cypress/integration/cad-cliente.spec.js
